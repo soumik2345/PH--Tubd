@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHero-tube</title>
+    <!-- css framework -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" 
+     type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="px-4">
+
+
+    <header>
+        <!-- logo section -->
+        <section class="">
+            <div class=" flex justify-between mt-10 max-w-full p-2">
+                <!-- logo section -->
+                <div class="text-3xl font-bold text-center  ">
+                     <img src="./logo/Logo.png" alt="">
+                </div>
+                <!-- sort section -->
+                <div class="text-center">
+                    <h2 class="text-sm font-semibold bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-[#FF1F3D]" onclick="handleSortVideos()">Sort by view</h2>
+                </div>
+                <!-- button section -->
+                <div  id="blog" class=" text-sm font-medium text-end  ">      
+                     <a href="/blog.html" class="btn bg-[#FF1F3D] text-white">Blog</a>
+             
+            </div>
+            </div>
+            <hr class="mx-auto max-w-7xl h-1 mt-8">
+        </section>
+
+        <!-- nav bar section -->
+        <section class="">
+            <div id="category" class="mt-8 space-x-8 flex justify-center items-center max-w-full ">
+                      
+            </div>
+        </section>
+    </header>
+
+    <main>
+<!-- video section -->
+<section>
+<div class=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-x-8  space-y-4 mt-8 max-w-full" id="categoryOfVideos">
+    
+
+    <!-- <div class="card  bg-base-100 shadow-xl ">
+        <div class="relative">
+    <figure class="rounded-lg"><img src="./image/web.jpg" alt="" srcset=""></figure>
+    <div class="bg-black text-white  absolute -mt-10 ml-40 text-center rounded-md px-3">3hrs 56 min ago</div>
+        </div>
+        <div class="card-body">
+       <div class="flex space-x-4 items-center justify-center">
+            <img src="./image/Ellipse 1.png" alt="">
+            <p class="font-bold text-xs">Building a Winning UX Strategy Using the Kano Model</p>
+       </div>
+      <div class="space-y-4 ml-14">
+        <p class="text-xs font-normal">Awlad Hossain</p>
+        <p class="text-xs font-normal">91K views</p>
+      </div>
+      </div>
+        </div> -->
+    </div>
+</section>
+
+    </main>
+    <!-- <img src="./image/fi_10629607.svg " alt="" srcset=""> -->
+
+<script src="./js/index.js"></script>
+</body>
+</html>
